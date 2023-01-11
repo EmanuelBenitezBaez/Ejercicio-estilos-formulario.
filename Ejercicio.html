@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Estilos para forms/Ejercicio/Ejercicio.css">
+</head>
+<body>
+    <div class="container">
+    
+        <h1>Sign in to Website</h1>
+    
+
+    <div class="buttons">
+        <button class="google-btn">
+            <picture><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU" alt="google"></picture> 
+        <span>Login with Google    </span>
+    </button>
+    
+    
+        <button class="twitter-btn">
+            <picture><img src="data:image/png;base64,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" alt="logo-twitter"></picture>
+            
+        </button>
+    </div>
+    
+    <div class="separator">
+        <hr><span>Or</span><hr>
+    </div>
+    
+        <form action="" method="GET">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                <input type="text" name="name" class="
+                classname" id="name">
+            </label>
+            <label for="user">
+                 <span> Username
+                </span>
+                 
+            <input type="text" name="user" class="classuser" id="user">
+        </label>
+        </div>
+         
+            <label for="e-mail">
+              <span>Email</span>  
+
+            <input type="e-mail" class="e.mail" name="e-mail" id="e-mail">
+        </label>
+        
+        
+            <label for="password"> <span>Password</span>
+            <input type="password" name="password" class="pass" id="password" placeholder="6+ characters">
+        </label>
+            <label for="checkbox" class="label-checkbox">
+                <input type="checkbox" name="checkbox" class="checkbox" id="checkbox">
+                <span>
+                Creating an account  .
+            </span>
+            </label>
+            
+        
+        <div class="btn-acc">
+            <button class="account-button" type="submit">
+                 Create Account</button>
+        </div>
+        <div >
+
+            <p><span>Already a member? <a href="#">Sign In</a></span></p>
+        </div>
+        </form>
+    </div>
+
+</body>
+</html>
